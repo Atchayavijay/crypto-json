@@ -1,0 +1,4 @@
+C:\Users\a3448518\source\repos\SG.CentralCrypto.API\SG.CentralCrypto.IAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\a3448518\source\repos\SG.CentralCrypto.API\SG.CentralCrypto.IAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\a3448518\source\repos\SG.CentralCrypto.API\SG.CentralCrypto.IAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\a3448518\source\repos\SG.CentralCrypto.API\SG.CentralCrypto.IAPI\obj\Debug\net8.0\staticwebassets.build.json
