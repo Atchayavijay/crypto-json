@@ -15,6 +15,14 @@ builder.Services.AddHttpClient("CryptoApi", client =>
 var app = builder.Build();
 
 app.UseHttpsRedirection();
+
 app.MapControllers();
+
+// Root endpoint
+app.MapGet("/", () => Results.Ok(new
+{
+    Status = "Success",
+    Message = "Central Crypto IAPI is running"
+}));
 
 app.Run();

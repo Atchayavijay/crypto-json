@@ -6,13 +6,20 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Enable Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
+
 app.MapControllers();
+
+// Root endpoint
+app.MapGet("/", () => Results.Ok(new
+{
+    Status = "Success",
+    Message = "Central Crypto API is running",
+    Version = "1.0"
+}));
 
 app.Run();
